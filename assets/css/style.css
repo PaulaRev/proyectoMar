@@ -1,0 +1,172 @@
+@font-face {
+    font-family:  Noto_Sans;
+    src: url(../fonts/Noto_Sans/NotoSans-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'calibri';
+}
+
+.contacto{
+    margin: 0;
+    main-height:100vh;
+    background-color: white;
+}
+.form-contact col-12 col-md-12 col-lg-12{
+    background-color: white;
+    width:400px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-35%, -35%);
+    box-shadow: 7px 13px 37px rgb(0, 0, 0, .8);
+}
+.form-contacto col-12 col-md-12 col-lg-12{
+    width: 100%;
+    background-color:rgba(216, 160, 107, 0.678);
+    overflow: hidden;
+    color: white;
+}
+.h1Home{
+    margin: 10px;
+    padding: 15px;
+    padding-bottom: 10px;
+    font-family: 'Glegoo', serif;
+    font-size: 25px;
+}
+.texto-home{
+    color: rgba(196, 104, 18, 0.753);
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-family: 'Glegoo', serif;
+    font-size: 70px;
+}
+.texto-desc-home{
+    margin: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-family: 'Glegoo', serif;
+    font-size: 20px;
+}
+.h1Contacto{
+    font-size: 25px;
+    font-family: 'Glegoo', serif;
+    margin-left: 15px;
+    padding: 8px;
+}
+.form-contacto span{ 
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 2.5rem;
+}
+.contact{
+    padding: .8rem;
+    overflow: hidden;
+    color: gray;
+}
+.contact label, .contact input, .contact textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.contact label{
+    font-weight: 700;
+}
+.contact input:not([type='submit']), .contact textarea{
+    border: none;
+    border-bottom: 2px solid rgba(216, 160, 107, 0.678);
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: grey;
+}
+.contact textarea{
+    min-height: 100px;
+}
+input[type='submit']{
+    padding: 10px;
+    border: none;
+    background-color:rgba(216, 160, 107, 0.678) ;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.quienes-somosh1 {
+    font-family: 'Glegoo', serif;
+    padding: 5px;
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.tarjeta{
+    width: 250px;
+    border: solid 1px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 30px;
+    background-color: white;
+}
+.productos{
+    font-family: 'Glegoo', serif;
+    margin-left: 20px;
+    font-size: 50px;
+}
+.tarjeta__img{
+    width: 100%;
+    height: max-content;
+}
+.tarjeta__titulo{
+    margin: 5px;
+}
+.tarjeta__descripcion{
+    margin: 10px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: coral;
+    color: black;
+}
+
+.titulo-servicios{
+    font-family: 'Glegoo', serif;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.tarjeta-servicios{
+    width: 700px;
+    margin: 25px;
+}
+.tarjeta__imgserv{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.tarjeta__tituloserv{
+    font-size: 25px;
+}
+.img-fluid{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.card-group{
+    padding: 25px;
+}
+
